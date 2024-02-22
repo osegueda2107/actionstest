@@ -157,6 +157,25 @@
                 <td>celda</td>
                 <td>celda</td>
                 <td>celda</td>
+ <br>
+    <table border="1">
+        <td>
+            <table border="1">
+                <td>celda</td>
+                <td>celda</td>
+                <tr>
+                    <td>celda</td>
+                    <td>celda</td>
+                </tr>
+                <tr>
+                    <td>celda</td>
+                    <td>celda</td>
+                </tr>
+                <tr>
+                    <td>celda</td>
+                    <td>celda</td>
+                </tr>
+            </table>
             </tr>
 
     </table>
