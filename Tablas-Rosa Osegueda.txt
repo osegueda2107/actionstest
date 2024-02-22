@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS OSEGUEDA</title>
+</head>
+<body>
+    <table border="1">
+        <td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+
+        <tr><td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+        <td>celda</td></tr>
+
+        <tr><td>celda</td>
+            <td>celda</td>
+            <td>celda</td>
+            <td>celda</td></tr>
+
+            <tr><td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td></tr>
+    </table>
+    <br>
+    <table border="1">
+            <td>celda</td>
+            <td>celda</td>
+            <td>celda</td>
+            <td>celda</td>
+        <tr>
+            <td>celda</td>
+            <td>celda</td>
+            <td>
+                <table border="1">
+                    <td>celda</td>
+                    <td>celda</td>
+                    <tr><td>celda</td><td>celda</td></tr>
+                    <tr><td>celda</td><td>celda</td></tr>
+                    <tr><td>celda</td><td>celda</td></tr>
+                </table>
+            </td>
+            <td>celda</td>
+        </tr>
+       <tr><td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+    </tr>
+    <tr><td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+        <td>celda</td>
+    </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        <td>
+            <table border="1">
+                <td>celda</td>
+                <td>celda</td>
+                <tr>
+                    <td>celda</td>
+                    <td>celda</td>
+                </tr>
+                <tr>
+                    <td>celda</td>
+                    <td>celda</td>
+                </tr>
+                <tr>
+                    <td>celda</td>
+                    <td>celda</td>
+                </tr>
+            </table>
+        </td>
+            <td>celda</td>
+            <td>celda</td>
+            <td>celda</td> 
+        <tr>
+            <td>celda</td>
+            <td>celda</td>
+            <td>celda</td> 
+            <td>
+                <table border="1">
+                    <td>celda</td>
+                    <td>celda</td>
+                    <td>celda</td>
+                    <td>celda</td>
+                    <tr>
+                        <td>celda</td>
+                        <td>celda</td>
+                        <td>celda</td>
+                        <td>celda</td>
+                    </tr>
+                    <tr>
+                        <td>celda</td>
+                        <td>celda</td>
+                        <td>celda</td>
+                        <td>celda</td>
+                    </tr>
+                </table>
+            </td>  
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+        </tr> 
+    </table>
+
+    <br>
+    <table border="1">
+        <table border="1">
+            <td>
+                <table border="1">
+                    <td>celda</td>
+                    <td>celda</td>
+                    <td>celda</td>
+                    <td>celda</td>
+                    <tr>
+                        <td>celda</td>
+                        <td>celda</td>
+                        <td>celda</td>
+                        <td>celda</td>
+                    </tr>
+                </table>
+            </td>
+            <td>celda</td>
+            <td>celda</td>
+            <tr>
+                <td>
+                    <table border="1">
+                        <td>celda</td>
+                        <td>celda</td>
+                        <tr>
+                            <td>celda</td>
+                            <td>celda</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>celda</td>
+                <td>celda</td>  
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+
+    </table>
+
+</body>
+</html>
