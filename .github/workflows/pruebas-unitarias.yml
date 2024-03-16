@@ -1,0 +1,26 @@
+name: Pruebas Unitarias
+
+on:
+  push:
+    branches:
+      - examen-parcial-1
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v2
+
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Ejecutar pruebas unitarias
+      run: npm test
+
+    - name: Subir PDF con enlace al repositorio y capturas de pantalla
+      uses: actions/upload-artifact@v2
+      with:
+        name: Capturas de pantalla
+        path: screenshots/
