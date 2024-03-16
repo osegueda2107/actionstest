@@ -13,14 +13,14 @@ jobs:
     - name: Checkout del código
       uses: actions/checkout@v2
 
-    - name: Instalar dependencias
-      run: npm install
+    - name: Instalar dependencias y ejecutar pruebas
+      run: |
+        npm install
+        npm test
 
-    - name: Ejecutar pruebas unitarias
-      run: npm test
-
-    - name: Subir PDF con enlace al repositorio y capturas de pantalla
+    - name: Subir capturas de pantalla
       uses: actions/upload-artifact@v2
       with:
-        name: Capturas de pantalla
+        name: Screenshots
         path: screenshots/
+
